@@ -5,7 +5,7 @@
       <stop offset="0.52" stop-color="#123C69"/>
       <stop offset="1" stop-color="#0F766E"/>
     </linearGradient>
-    <linearGradient id="line" x1="96" y1="324" x2="1184" y2="96" gradientUnits="userSpaceOnUse">
+    <linearGradient id="line" x1="96" y1="352" x2="1184" y2="178" gradientUnits="userSpaceOnUse">
       <stop stop-color="#22D3EE"/>
       <stop offset="0.5" stop-color="#FDE68A"/>
       <stop offset="1" stop-color="#34D399"/>
@@ -21,25 +21,26 @@
   <rect width="1280" height="420" rx="28" fill="url(#bg)"/>
   <rect width="1280" height="420" rx="28" fill="url(#grid)"/>
 
-  <path d="M96 318 C204 226 276 282 374 198 C494 94 560 206 662 154 C798 84 850 214 970 160 C1068 116 1112 88 1184 102" stroke="url(#line)" stroke-width="7" stroke-linecap="round"/>
-  <path d="M96 318 C204 226 276 282 374 198 C494 94 560 206 662 154 C798 84 850 214 970 160 C1068 116 1112 88 1184 102" stroke="#67E8F9" stroke-width="18" stroke-linecap="round" opacity="0.18" filter="url(#soft)"/>
+  <path d="M96 352 C220 330 298 372 420 338 C548 310 602 368 728 342 C850 318 906 346 1016 286 C1094 242 1138 204 1184 196" stroke="url(#line)" stroke-width="6" stroke-linecap="round" opacity="0.92"/>
+  <path d="M96 352 C220 330 298 372 420 338 C548 310 602 368 728 342 C850 318 906 346 1016 286 C1094 242 1138 204 1184 196" stroke="#67E8F9" stroke-width="16" stroke-linecap="round" opacity="0.12" filter="url(#soft)"/>
 
-  <g opacity="0.9">
-    <circle cx="96" cy="318" r="8" fill="#FDE68A"/>
-    <circle cx="374" cy="198" r="8" fill="#FDE68A"/>
-    <circle cx="662" cy="154" r="8" fill="#FDE68A"/>
-    <circle cx="970" cy="160" r="8" fill="#FDE68A"/>
-    <circle cx="1184" cy="102" r="8" fill="#FDE68A"/>
+  <g opacity="0.82">
+    <circle cx="96" cy="352" r="7" fill="#FDE68A"/>
+    <circle cx="420" cy="338" r="7" fill="#FDE68A"/>
+    <circle cx="728" cy="342" r="7" fill="#FDE68A"/>
+    <circle cx="1016" cy="286" r="7" fill="#FDE68A"/>
+    <circle cx="1184" cy="196" r="7" fill="#FDE68A"/>
   </g>
 
   <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="54" y="66" width="720" height="190" rx="22" fill="#07111F" opacity="0.22"/>
     <text x="72" y="108" fill="#E0F2FE" font-size="24" opacity="0.9">Math • EdTech • AI</text>
     <text x="72" y="178" fill="white" font-size="58" font-weight="800">Nguyễn Cung Hoàng Nam</text>
     <text x="74" y="228" fill="#D1FAE5" font-size="27" font-weight="600">Giáo viên Toán THPT xây dựng công cụ học tập tương tác</text>
     <text x="76" y="292" fill="#FEF3C7" font-size="26">f(x) = Toán học + Công nghệ + Trải nghiệm lớp học tốt hơn</text>
 
-    <text x="824" y="250" fill="rgba(255,255,255,0.18)" font-size="72" font-family="Cambria Math, Georgia, serif">∫ e^x dx</text>
-    <text x="930" y="326" fill="rgba(255,255,255,0.22)" font-size="46" font-family="Cambria Math, Georgia, serif">Δ = b² − 4ac</text>
-    <text x="872" y="82" fill="rgba(255,255,255,0.18)" font-size="44" font-family="Cambria Math, Georgia, serif">lim x→∞</text>
+    <text x="832" y="244" fill="rgba(255,255,255,0.13)" font-size="72" font-family="Cambria Math, Georgia, serif">∫ e^x dx</text>
+    <text x="920" y="330" fill="rgba(255,255,255,0.15)" font-size="46" font-family="Cambria Math, Georgia, serif">Δ = b² − 4ac</text>
+    <text x="880" y="86" fill="rgba(255,255,255,0.16)" font-size="44" font-family="Cambria Math, Georgia, serif">lim x→∞</text>
   </g>
 </svg>
